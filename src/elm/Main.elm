@@ -13,7 +13,7 @@ import TimeTravel.Html.App as TimeTravel
 import Types exposing (Model, WeatherInfo)
 import Actions exposing (..)
 import FetchService exposing (fetchWeather)
-import WeatherSearch exposing (weatherSearch)
+import Components.WeatherSearch exposing (weatherSearch)
 import Update exposing (initialState, update)
 
 

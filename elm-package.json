@@ -4,8 +4,7 @@
     "repository": "https://github.com/guumaster/elm-weather-exercise.git",
     "license": "MIT",
     "source-directories": [
-        "src/elm",
-        "src/elm/Components"
+        "src/elm"
     ],
     "exposed-modules": [],
     "dependencies": {

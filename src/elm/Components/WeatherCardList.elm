@@ -1,4 +1,4 @@
-module WeatherCardList exposing (weatherCardList)
+module Components.WeatherCardList exposing (weatherCardList)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)

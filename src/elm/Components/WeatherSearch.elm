@@ -1,4 +1,4 @@
-module WeatherSearch exposing (weatherSearch)
+module Components.WeatherSearch exposing (weatherSearch)
 
 import String
 import Html exposing (..)
@@ -6,7 +6,7 @@ import Html.Attributes exposing (..)
 import Html.Events exposing (onClick, onInput)
 import Actions exposing (..)
 import Types exposing (Model)
-import WeatherCardList exposing (weatherCardList)
+import Components.WeatherCardList exposing (weatherCardList)
 
 
 weatherSearch : Model -> Html Action
