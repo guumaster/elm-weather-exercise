@@ -5,7 +5,7 @@ import Html exposing (Html)
 
 --import Html.App as Html -- change to this import to remove time travel debug
 
-import TimeTravel.Html.App as TimeTravel
+import TimeTravel.Html as TimeTravel
 
 
 -- app imports
@@ -20,7 +20,7 @@ import Update exposing (initialState, update)
 -- APP
 
 
-main : Program Never
+-- main : Program Never
 main =
     -- Html.program
     TimeTravel.program

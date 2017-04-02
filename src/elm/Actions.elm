@@ -7,5 +7,4 @@ import Types exposing (WeatherInfo)
 type Action
     = UpdateSearchText String
     | FetchWeather
-    | FetchWeatherFail Http.Error
-    | FetchWeatherSuccess (List WeatherInfo)
+    | FetchWeatherCompleted (Result Http.Error (List WeatherInfo))

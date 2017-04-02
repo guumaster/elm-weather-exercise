@@ -24,7 +24,7 @@ weatherSearch model =
 inputBox : Model -> Html Action
 inputBox model =
     input
-        [ type' "text"
+        [ type_ "text"
         , onInput UpdateSearchText
         , value (model.searchText)
         ]

@@ -29,8 +29,8 @@ update action model =
         FetchWeather ->
             ( { model | loading = True }, fetchWeather model.searchText )
 
-        FetchWeatherFail _ ->
+        FetchWeatherCompleted (Err _) ->
             { model | loading = False } ! []
 
-        FetchWeatherSuccess list ->
+        FetchWeatherCompleted (Ok list) ->
             { model | weatherList = list, loading = False } ! []
